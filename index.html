@@ -166,7 +166,8 @@
         }
 
         .PlacementBgS {
-            background: url(img/new-placement-bg.jpg);
+            background: linear-gradient(to right, #5475ce, #67dbc8 100%) !important;
+            /* background: url(img/new-placement-bg.jpg); */
             background-repeat: no-repeat !important;
             background-size: cover !important;
         }
@@ -227,8 +228,7 @@
         }
 
         .pattren {
-            background:linear-gradient(to right, #d13879, #a235c5 100%) !important; ;
-            /* background: url(img/pattern-bg.jpg) !important; */
+            background: url(img/pattern-bg.jpg) !important;
             background-repeat: no-repeat !important;
             background-size: cover !important;
         }
@@ -317,6 +317,19 @@
 
         .CompanyRecLogo img {
             border-radius: 14px;
+        }
+      
+        .title {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .opportunity{
+ background: linear-gradient(to right, #5475ce, #67dbc8 100%) !important;    
+padding: 15px;    }
+        .opportunity h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -576,7 +589,7 @@
         </div>
     </section>
     <section class="bigImage">
-        <img src="img/uu-infra-campus.png" alt="Uttaranchal University" class="w-100" width="100%">
+        <img src="img/uu-infra-campus.png" alt="SMT" class="w-100" width="100%">
     </section>
     <section class="milestone-section pattren" style="padding-top: 32px; padding-bottom: 32px;">
         <div class="container">
@@ -616,7 +629,7 @@
                 </div>
             </div> -->
         </div>
-        <div class="container mt-3 CompanyRecLogo">
+        <div class="container mt-3 CompanyRecLogo ">
             
             <!-- <div class="placementsLogo plSlider mt-5 mb-5">
              <div class="pl-item"><img src="img/RECRUITERS/01.jpg" alt=""></div>
@@ -721,7 +734,7 @@
                 <div class="col-lg-3 col-6 colEx"></div> 
             </div> -->
         </div>
-        <div class="container mt-5">
+        <div class="container mt-5  ">
             <div class="row g-0">
                 <div class="col-lg-12">
                     <div class="milestone-section__otherText ps-4 text-center">
@@ -813,15 +826,23 @@
     </section>
     <!-- Start Testimonials -->
     <section class="talk-section bg-gray PlacementBgS" style="padding-top: 8px; padding-bottom: 0px;">
-        <img src="img/alumni/mobile_placement.jpg" class="img-fluid MobileView" alt="Placement Banner"
-            style="display:none;">
+        <!-- <img src="img/alumni/mobile_placement.jpg" class="img-fluid MobileView" alt="Placement Banner"
+            style="display:none;"> -->
         <!-- <img src="img/placement-mobile.png" class="img-fluid MobileView" alt="Placement Banner" style=" width:100% !important;display: none;"> -->
         <div class="container">
+
+          
             <!-- <div class="main-heading text-center mb-5 h2-gray">
                 <h2>Our Students  <span>Speak</span></h2>
             </div> -->
-            <div class="row g-0">
-                <div class="col-md-3"></div>
+            <div class="row g-0 ">
+                <div class="col-md-3 justify-content-center align-items-center d-flex ">
+                    <div >
+                        <h1 class="title">From Campus to Courtroom</h1>
+                        <p class="lead ">Inspiring Student Success Stories at <strong>ST. Mother Teresa Law College</strong></p>
+                    </div>
+                    
+                </div>
                 <div class="col-lg-9">
                     <div class="talkSlider TestimonialsSlider">
                         <div class="tks-item">
@@ -918,12 +939,10 @@
         <div class="container">
             <div class="main-heading text-center mb-5 h2-gray">
                 <h2 style="color: #333 !important;">
-                    JOIN THE GLOBAL CLASSROOM:
-                    <br>
-                    <span>WHERE EDUCATION MEETS DIVERSE INDUSTRIES!</span>
+                    <span>Hands-On Learning Opportunities</span>
                 </h2>
             </div>
-            <div class="row HireRow GlobalPoint fiveThumbs text-center" style="margin-right:0px">
+            <!-- <div class="row HireRow GlobalPoint fiveThumbs text-center" style="margin-right:0px">
                 <div class="col-md-2 col-6">
                     <div class="HireBox">
                         <p class="text-white">
@@ -999,8 +1018,8 @@
                     <span style="color: var(--bg-blue)">Academia-Industry</span>
                     Partners
                 </h3>
-            </div>
-            <div class="placementsLogo plSlider mt-1 mb-5" id="AccSLider">
+            </div> -->
+            <!-- <div class="placementsLogo plSlider mt-1 mb-5" id="AccSLider">
                 <div class="pl-item">
                     <img src="img/ACADEMIC-PARTNERS/1.jpg" alt="">
                 </div>
@@ -1028,7 +1047,31 @@
                 <div class="pl-item">
                     <img src="img/ACADEMIC-PARTNERS/9.jpg" alt="">
                 </div>
+            </div> -->
+            
+            <div class="container  ">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4 ">
+                        <div class="opportunity  pattren">
+                            <h3>Professional Internship Programs</h3>
+                            <p>Gain practical experience in real-world settings through our internship programs.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="opportunity pattren">
+                            <h3>Moot Court Competitions</h3>
+                            <p>Develop advocacy skills and legal knowledge through simulated court proceedings.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="opportunity pattren">
+                            <h3>Debate Competitions</h3>
+                            <p>Hone critical thinking and public speaking abilities in competitive debates.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </div>
     </section>
     <section class="bigImage">
